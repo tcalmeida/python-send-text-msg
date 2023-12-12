@@ -8,7 +8,7 @@ load_dotenv()
 
 sid = os.getenv('SID')
 token = os.getenv('AUTH_TOKEN')
-your_number = os.getenv('YOUR_NUMBER')
+your_number = os.getenv('YOUR_TWILIO_NUMBER')
 
 
 def send_message():
